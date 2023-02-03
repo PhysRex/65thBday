@@ -9,6 +9,9 @@
 # production
 /build
 
+# Files to store locally but not in repo
+/old
+
 # misc
 .DS_Store
 .env.local

@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush|Cinzel+Decorative|Homemade+Apple|Marcellus+SC|Satisfy|Spectral+SC|Dancing+Script|Dawning+of+a+New+Day|Zeyada|Rock+Salt|Schoolbell|Annie+Use+Your+Telescope|Bubblegum+Sans|Patrick+Hand+SC|Walter+Turncoat|Stalemate');
 
+
 body {
   /* text-align: center; */
 
-  background: url('./img/texturedBackground.jpg');
+  /* background: url('./img/texturedBackground.jpg'); */
   /* background: url('./img/background-beige-paper-1024.jpg'); */
   /* background: url('./img/background-brown-cardboard-1024.jpg'); */
-  background:
+  /* background:
     linear-gradient(rgba(255, 255, 255, 0.50),
-      rgba(255, 255, 255, 0.50)),
-    /* url('./img/background-brown-cardboard-1024.jpg'); */
-    /* url('./img/background-beige-paper-1024.jpg'); */
-    url('./img/texturedBackground.jpg');
+      rgba(255, 255, 255, 0.50)), */
+  /* url('./img/background-brown-cardboard-1024.jpg'); */
+  /* url('./img/background-beige-paper-1024.jpg'); */
+  /* url('./img/texturedBackground.jpg'); */
   /* url('./img/background-cream-paper.jpg'); */
 
   /* background: url('./img/background-cream-paper.jpg'); */
@@ -19,7 +20,16 @@ body {
 }
 
 .App {
-  /* padding-top: 3vh; */
+  padding-top: 5vh;
+  margin-bottom: 150px;
+
+}
+
+@media all and (max-width: 599px) {
+  .App {
+    padding-top: 20px;
+  }
+
 }
 
 
@@ -324,39 +334,72 @@ body {
 .dressCodeText {
   /* margin: 0 0 10px 0; */
   color: rgba(0, 0, 0, 0.75);
-  font-family: 'Cinzel Decorative', cursive;
+  /* font-family: 'Cinzel Decorative', cursive; */
+  font-family: 'Pacifico', cursive;
+
   text-shadow: none;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
 }
 
 .welcomeText {
   animation-delay: 2s;
 }
 
+.dressCodeText {
+  animation-delay: 5.5s;
+  /* font-size: 1.1rem; */
+  /* font-weight: bold; */
+  /* filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4)); */
+  /* text-shadow: 1px 1px 1px rgba(00, 00, 00, 0.5); */
+}
+
+.bodyText,
+.invitationText {
+  color: #ffcb31;
+  /* font-family: 'Suez One', serif; */
+
+}
+
 .bodyText {
   font-weight: bold;
   font-size: 5.5rem;
-  font-family: 'Stalemate', cursive;
+  /* font-family: 'Stalemate', cursive; */
   /* font-family: 'Rock Salt', cursive; */
   /* font-family: 'Annie Use Your Telescope', cursive; */
   /* font-family: 'Walter Turncoat', cursive; */
   /* color: #efcf6a; */
   /* color: #ecdc9a; */
-  color: #ffc7a2;
+  /* color: #ffc7a2; */
+
   /* color: #ffcb31; */
+  /* font-family: 'Nerko One', cursive; */
+  /* font-family: 'Suez One', serif; */
+  font-family: 'Abril Fatface', cursive;
+
   line-height: 7rem;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.65);
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.40));
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.40));
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.20));
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.20));
+}
 
-  /* text-shadow: 2px 2px 3px rgba(255,255,255,0.35);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  background-color: #A52426; */
+.body1 {
+  font-size: 15rem;
+  line-height: 15rem;
+}
+
+.bodyMid,
+.bodyBottom {
+  /* font-family: 'Stalemate', cursive; */
+  /* font-family: 'Nerko One', cursive; */
+  font-family: 'Alex Brush', cursive;
 
 }
+
+
+
+
+
 
 .bodyText.bodyTop {
   margin: 15px 0 0 0;
@@ -378,18 +421,12 @@ body {
   color: rgba(0, 0, 0, 0.7);
   font-family: 'Spectral SC', serif;
   font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Pacifico', cursive;
   text-shadow: none;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
 
   animation-delay: 4s;
-}
-
-.invitationText-row {
-  /* background: url('./img/Watercolor-pink-ribbon-flower.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
 }
 
 .invitationImg {
@@ -399,13 +436,13 @@ body {
 .invitationText {
   margin: 10px 0 0 0;
 
-  color: #ffc7a2;
+  /* color: #ffc7a2; */
   /* font-family: 'Homemade Apple', cursive; */
   /* font-family: 'Alex Brush', cursive; */
   /* font-family: 'Satisfy', cursive; */
-  font-family: 'Stalemate', cursive;
+  /* font-family: 'Stalemate', cursive; */
   /* font-family: 'Zeyada', cursive; */
-  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Dancing Script', cursive;
   font-size: 3rem;
   font-weight: bold;
   /* word-spacing: -5px; */
@@ -416,9 +453,9 @@ body {
   /* text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9); */
 
 
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.65);
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.40));
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4));
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.65);
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.20));
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.20));
 
   animation-delay: 4.5s;
 }
@@ -427,14 +464,6 @@ body {
   font-family: 'Alex Brush', cursive;
 
   animation-delay: 5s;
-}
-
-.dressCodeText {
-  animation-delay: 5.5s;
-  font-size: 1.1rem;
-  font-weight: bold;
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4));
-  /* text-shadow: 1px 1px 1px rgba(00, 00, 00, 0.5); */
 }
 
 .line-break {
@@ -457,14 +486,22 @@ body {
   /* margin-top: 15px; */
   animation-delay: 6.5s;
 
-  color: #ffc7a2;
-  font-size: 3.5rem;
-  font-family: 'Stalemate', cursive;
-  font-weight: bold;
+  color: #ffcb31;
+  font-size: 2rem;
+  /* font-family: 'Abril Fatface', cursive; */
 
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.65);
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.40));
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4));
+  /* font-family: 'Homemade Apple', cursive; */
+  /* font-family: 'Alex Brush', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  /* font-family: 'Stalemate', cursive; */
+  /* font-family: 'Zeyada', cursive; */
+  font-family: 'Roboto Slab', serif;
+
+  /* font-weight: bold; */
+
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.65);
+  /* -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.40));
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4)); */
 }
 
 .inviteMsg-top {
@@ -543,7 +580,7 @@ body {
   padding-bottom: 0px;
   line-height: 2.5rem;
 
-  background: #fde4de;
+  background: #ffcb31;
   border: none;
   border-radius: 7px;
   box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.25);
@@ -576,9 +613,9 @@ body {
 .btn:hover,
 .btn:focus {
   border: none;
-  box-shadow: 0 0 0 0.2rem #ffcfc4;
+  box-shadow: 0 0 0 0.2rem gold;
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
-  background: #ffcfc4 !important;
+  background: gold !important;
 }
 
 .btn.fades {
@@ -590,10 +627,16 @@ body {
 
 
 
+:root {
+  --animation-opacity: 0.75
+}
 
 
-
-
+@media all and (max-width: 599px) {
+  :root {
+    --animation-opacity: 0.5
+  }
+}
 
 
 /*  IMAGES */
@@ -603,9 +646,11 @@ body {
   }
 
   to {
-    opacity: 0.5;
+    opacity: var(--animation-opacity);
   }
 }
+
+
 
 .fadeInOpaque {
   animation-name: fadeInOpaque;
@@ -619,15 +664,25 @@ body {
 
 .flowers {
   position: fixed;
-  height: 300px;
+  height: 500px;
   opacity: 0;
+  filter: saturate(2.2);
+  animation-delay: 0.75s;
+}
+
+.flowers#flowerTop {
+  top: 56px;
+  right: -55px;
+
+  transform: rotate(90deg) scaleX(1);
 }
 
 .flowers#flowerBottom {
-  right: 0;
-  animation-delay: 0.75s;
+  bottom: 0;
+  left: 0;
+  /* animation-delay: 2.5s; */
 
-  transform: rotate(0deg) scaleX(1);
+  transform: rotate(0deg) scaleY(-1);
 }
 
 .flowers#branchesWhite {
@@ -640,12 +695,6 @@ body {
   transform: rotate(90deg) scaleX(1) scaleY(-1);
 }
 
-.flowers#flowerTop {
-  right: 0;
-  animation-delay: 2.5s;
-
-  transform: scaleY(-1);
-}
 
 .flowers#orangeRoses {
   position: absolute;
@@ -671,6 +720,93 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+/* Balloons */
+.balloon {
+  --balloonDimension: 12vmax;
+  /* 15% of min(viewport width, height) */
+  width: var(--balloonDimension);
+  height: var(--balloonDimension);
+  border-radius: 100% 100% 15% 100%;
+  margin: 0 0 0 25px;
+  transform: rotateZ(45deg);
+  position: fixed;
+  bottom: calc(-1 * var(--balloonDimension));
+  left: 0;
+  background-color: gold;
+}
+
+.balloon::before {
+  content: "";
+  width: 10%;
+  height: 25%;
+  background: radial-gradient(circle, rgba(255, 255, 255, .7) 0%, rgba(255, 255, 255, .1) 100%);
+  position: absolute;
+  left: 15%;
+  top: 45%;
+  border-radius: 100%;
+}
+
+.balloon::after {
+  content: "";
+  width: 13%;
+  height: 5%;
+  background-color: inherit;
+  position: absolute;
+  left: 90%;
+  top: 94%;
+  border-radius: 22%;
+  transform: rotateZ(-45deg);
+}
+
+.balloon .string {
+  position: absolute;
+  background-color: #990;
+  width: 2px;
+  height: calc(var(--balloonDimension) * .6);
+  transform-origin: top center;
+  transform: rotateZ(-45deg);
+  top: calc(var(--balloonDimension) - 6px);
+  left: calc(var(--balloonDimension) - 8px);
+}
+
+.yellow {
+  background-color: rgba(255, 203, 49, .45);
+}
+
+.green {
+  background-color: rgba(248, 216, 145, .45);
+}
+
+.blue {
+  background-color: rgba(33, 120, 250, 0.45);
+}
+
+.rose {
+  background-color: rgba(243, 78, 78, 0.45);
+}
+
+.red {
+  background-color: rgba(150, 0, 0, .45);
+}
+
+.silver {
+  background-color: rgba(197, 195, 195, 0.45);
+}
+
+
+
+
+
+
 /* MOBILE */
 .mobile {
   display: none;
@@ -681,6 +817,7 @@ body {
     display: unset;
     animation-delay: 2.5s;
   }
+
 
   .desktop {
     display: none;

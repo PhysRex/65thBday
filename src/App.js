@@ -226,10 +226,10 @@ class App extends Component {
           <section className="body-row row align-items-center fadeIn">
             <div className="col-0 col-md-1 col-xl-3" />
             <div className={`${(!this.state.loading) ? ' ' : ''}col col-md-10 col-xl-6 text-center`}>
-              <div className="row">
+              <div className="row ">
                 <div className="welcomeText col text-center fadeIn">{text.welcome}</div>
               </div>
-              <div className="row pt-5">
+              <div className="row mt-5">
                 {/* <div className="bodyText bodyFull col mobile fadeIn">{text.bodyFull}</div> */}
                 <div className="dateText col-12 fadeIn">{text.date}</div>
                 <div className="addressText col-12 fadeIn">{text.address}</div>

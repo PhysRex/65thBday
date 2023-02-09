@@ -350,7 +350,8 @@ body {
 
 .welcomeText {
   animation-delay: 2s;
-  font-family: 'Sacramento', cursive;
+  /* font-family: 'Sacramento', cursive; */
+  font-family: 'Galantis', sans-serif;
   color: var(--main-text-color);
   font-size: 5.5rem;
 }
@@ -428,11 +429,14 @@ body {
 .addressText,
 .inviteMsg {
   color: var(--main-text-color);
-  font-family: 'Spectral SC', serif;
-  font-family: 'Cinzel Decorative', cursive;
-  font-family: 'Pacifico', cursive;
+  /* font-family: 'Spectral SC', serif; */
+  /* font-family: 'Cinzel Decorative', cursive; */
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Beauty Marsella', sans-serif;
+
   text-shadow: none;
-  font-size: 1.5rem;
+  font-size: 3rem;
+  line-height: 1;
   /* font-weight: bold; */
 
   animation-delay: 4s;
@@ -451,12 +455,14 @@ body {
   /* font-family: 'Satisfy', cursive; */
   /* font-family: 'Stalemate', cursive; */
   /* font-family: 'Zeyada', cursive; */
-  font-family: 'Dancing Script', cursive;
-  font-size: 2rem;
-  font-weight: bold;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Mustard Smile', sans-serif;
+
+  font-size: 2.5rem;
+  /* font-weight: bold; */
   /* word-spacing: -5px; */
 
-  /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.65); */
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.65);
   /* -webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.20)); */
   /* filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.20)); */
   /* text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9); */
@@ -584,7 +590,7 @@ body {
   /* bottom: -200px; */
   transform: translate(-50%, -50%);
 
-  width: 300px;
+  /* width: 300px; */
   padding-top: 6px;
   padding-bottom: 0px;
   line-height: 2.5rem;
@@ -596,10 +602,12 @@ body {
 
   color: #e6dec9;
   font-size: 2rem;
-  font-family: 'Alex Brush', cursive;
-  font-family: 'Stalemate', cursive;
+  /* font-family: 'Alex Brush', cursive; */
+  /* font-family: 'Stalemate', cursive; */
   /* font-family: 'Dawning of a New Day', cursive; */
-  font-weight: bold;
+  font-family: 'Mustard Smile', sans-serif;
+
+  /* font-weight: bold; */
   /* text-shadow: 1px 1px 1px rgba(167, 165, 165, 0.65); */
 
   animation-delay: 8s;

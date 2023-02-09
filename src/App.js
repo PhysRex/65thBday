@@ -4,8 +4,11 @@ import confetti from 'canvas-confetti';
 
 import flowersPink from './img/Watercolor-pink-flowers.png';
 import branchesWhite from './img/Watercolor-branches-white.png';
-import autumnClassicFlowers from './img/collection-transparent-lines-gold-glitter-0.png';
-// import autumnClassicFlowers from './img/background-autumn classic-v3.png';
+// import autumnClassicFlowers from './img/collection-transparent-lines-gold-glitter-0.png';
+import autumnClassicFlowers from './img/background-autumn classic-v3.png';
+import autumnClassicFlowersBig from './img/background-autumn big flowers v2.png';
+import shockEmoticon from './img/shock--funny-emoticon.png';
+
 
 import backgroundMusic from './audio/Kool-and-The-Gang-Celebration.mp3';
 import './App.css';
@@ -145,7 +148,7 @@ function birthdayBalloons() {
 const copy = {
   en: {
     name: 'Rosemary',
-    welcome: 'Let\'s celebrate',
+    welcome: 'Let\'s celebrate!',
     body1: '65',
     body2: '65th Birthday!',
     bodyFull: 'Cheers to 65 Years!',
@@ -153,12 +156,12 @@ const copy = {
     address: '15101 Smith Rd',
     address2: 'Charlotte, NC 28273',
     description: 'An exciting time with family and friends',
-    invitation: 'We can\'t wait to see you there',
+    invitation: 'I\'m turning 65 yrs. old!',
     dressCode: 'Informal Cocktail Attire',
     rsvp: 'R.S.V.P.',
-    inviteMsg: 'Dios ha sido muy bondadoso conmigo y me ha dado más de lo que hubiera imaginado.',
-    inviteMsg2: 'A estas alturas de mi vida, solo quiero salud y seguir viajando!',
-    inviteMsg3: 'Es así que, en este día tan especial, mi mejor regalo será tu presencia y compañia.',
+    inviteMsg: 'Todos mis días no serán suficientes para agradecer la bondad y gracia de Dios en mi vida. ',
+    inviteMsg2: 'Sin duda, he recibido más regalos de lo que hubiera imaginado, deseado o merecido.',
+    inviteMsg3: 'Tu amistad y cariño son uno de esos tesoros y tu presencia será un inolvidable recuerdo!',
   },
 };
 const text = copy.en;
@@ -207,7 +210,7 @@ class App extends Component {
           <header className="header-row row" />
           <section className="img-row row">
             <img
-              src={autumnClassicFlowers}
+              src={autumnClassicFlowersBig}
               id="flowerTop"
               className="flowers mobile-opacity fadeInOpaque "
               alt="logo"
@@ -226,59 +229,67 @@ class App extends Component {
               <div className="row">
                 <div className="welcomeText col text-center fadeIn">{text.welcome}</div>
               </div>
-              <div className="row">
+              <div className="row pt-5">
                 {/* <div className="bodyText bodyFull col mobile fadeIn">{text.bodyFull}</div> */}
-              </div>
-              <div className="row">
-                <div className="bodyText body1 bodyTop col fadeIn">{text.body1}</div>
-                {/* <div className="col desktop" /> */}
-              </div>
-              <div className="row">
-                <div className="bodyText bodyMid col fadeIn">{`${text.name}'s`}</div>
-                {/* <div className="col desktop" /> */}
-              </div>
-              <div className="row">
-                {/* <div className="col desktop" /> */}
-                <div className="bodyText bodyBottom col fadeIn">{text.body2}</div>
-              </div>
-              <div className="row">
                 <div className="dateText col-12 fadeIn">{text.date}</div>
                 <div className="addressText col-12 fadeIn">{text.address}</div>
                 <div className="addressText col-12 fadeIn">{text.address2}</div>
               </div>
-              <div className="row invitationText-row">
-                <div className="invitationText col fadeIn">
+              <div className="row">
+                {/* <div className="bodyText body1 bodyTop col fadeIn">{text.body1}</div> */}
+                {/* <div className="col desktop" /> */}
+              </div>
+              <div className="row">
+                {/* <div className="bodyText bodyMid col fadeIn">{`${text.name}'s`}</div> */}
+                {/* <div className="col desktop" /> */}
+              </div>
+              <div className="row">
+                {/* <div className="col desktop" /> */}
+                {/* <div className="bodyText bodyBottom col fadeIn">{text.body2}</div> */}
+              </div>
+              <div className="row">
+                {/* <div className="dateText col-12 fadeIn">{text.date}</div>
+                <div className="addressText col-12 fadeIn">{text.address}</div>
+                <div className="addressText col-12 fadeIn">{text.address2}</div> */}
+              </div>
+              <div className="row invitationText-row pt-5">
+                <div className="invitationText col-12 fadeIn">
                   {text.invitation}
                 </div>
+                <div className="invitationText col-12 fadeIn">
+                  <img src={shockEmoticon} className="" alt="logo" />
+                </div>
               </div>
-              <div className="row" />
-              <div className="row">
-                <div className="dressCodeText col fadeIn">{text.dressCode}</div>
-              </div>
+              <div className="row pt-4" />
               <div className="row">
                 <div className="col-2" />
                 <div className="col line-break fadeIn" />
                 <div className="col-2" />
               </div>
-              <div className="row">
-                <div className="col bGift fadeIn">A birthday gift:</div>
+              <div className="row pt-2">
+                {/* <div className="col bGift fadeIn">A birthday gift:</div> */}
               </div>
-              <div className="row">
-                <div className="inviteMsg col fadeIn">
+              <div className="row justify-content-center">
+                <div className="inviteMsg col-md-8 col-12 fadeIn">
                   "{text.inviteMsg}
                 </div>
               </div>
-              <div className="row">
-                <div className="inviteMsg col fadeIn">
+              <div className="row justify-content-center">
+                <div className="inviteMsg col-md-8 col-12 fadeIn">
                   {text.inviteMsg2}
                 </div>
               </div>
-              <div className="row">
-                <div className="inviteMsg col fadeIn">
+              <div className="row justify-content-center">
+                <div className="inviteMsg col-md-8 col-12 fadeIn">
                   {text.inviteMsg3}"
                 </div>
               </div>
-              <div className="row">
+
+              <div className="row pt-5">
+                <div className="dressCodeText col fadeIn">{text.dressCode}</div>
+              </div>
+
+              <div className="row d-none">
                 <div className="col-3" />
                 <div className="col text-right citeText fadeIn">
                   <cite>- Ross</cite>
@@ -294,8 +305,8 @@ class App extends Component {
             <div className="col text-center ">
               <a href="https://mauriciocampuzano.typeform.com/to/EzQgUc3V">
                 <button className="btn btn-warning btn-lg fadeIn">
-                  {text.rsvp}
-                  <div><span className="btn-span">here by Feb 15!</span></div>
+                  {text.rsvp} by Feb 15<sup>th</sup>, 2023!
+                  <div><span className="btn-span">(click Here)</span></div>
                 </button>
               </a>
             </div>

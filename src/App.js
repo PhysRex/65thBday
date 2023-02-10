@@ -160,7 +160,7 @@ const copy = {
     dressCode: 'Informal Cocktail Attire',
     rsvp: 'R.S.V.P.',
     inviteMsg: 'Todos mis días no serán suficientes para agradecer la bondad y gracia de Dios en mi vida. ',
-    inviteMsg2: 'Sin duda, he recibido más regalos de lo que hubiera imaginado, deseado o merecido.',
+    inviteMsg2: 'Sin duda, he recibido más regalos de los que hubiera imaginado, deseado o merecido.',
     inviteMsg3: 'Tu amistad y cariño son uno de esos tesoros y tu presencia será un inolvidable recuerdo!',
   },
 };
@@ -171,7 +171,7 @@ class App extends Component {
     super(props);
     this.state = {
       loading: true,
-      touchMusic: true,
+      touchMusic: false,
     };
   }
 
@@ -306,7 +306,7 @@ class App extends Component {
               <a href="https://mauriciocampuzano.typeform.com/to/EzQgUc3V">
                 <button className="btn btn-warning btn-lg fadeIn">
                   {text.rsvp} by Feb 15<sup>th</sup>, 2023!
-                  <div><span className="btn-span">(click Here)</span></div>
+                  <div><span className="btn-span">(click here)</span></div>
                 </button>
               </a>
             </div>

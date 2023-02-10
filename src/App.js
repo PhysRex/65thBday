@@ -152,7 +152,7 @@ const copy = {
     body1: '65',
     body2: '65th Birthday!',
     bodyFull: 'Cheers to 65 Years!',
-    date: 'Saturday, March 4th, 2023 @ 7pm',
+    date: 'Saturday, March 4th, 2023 @ 6:30pm',
     address: '15101 Smith Rd',
     address2: 'Charlotte, NC 28273',
     description: 'An exciting time with family and friends',
@@ -256,7 +256,7 @@ class App extends Component {
                 <div className="invitationText col-12 fadeIn">
                   {text.invitation}
                 </div>
-                <div className="invitationText col-12 fadeIn">
+                <div className="invitationText col-12 fadeIn pt-2">
                   <img src={shockEmoticon} className="" alt="logo" />
                 </div>
               </div>
@@ -285,16 +285,14 @@ class App extends Component {
                 </div>
               </div>
 
-              <div className="row pt-5">
+              <div className="row py-5">
                 <div className="dressCodeText col fadeIn">{text.dressCode}</div>
               </div>
 
-              <div className="row d-none">
-                <div className="col-3" />
-                <div className="col text-right citeText fadeIn">
-                  <cite>- Ross</cite>
+              <div className="row py-5">
+                <div className="col text-center citeText fadeIn">
+                  Looking forward to seeing you there!
                 </div>
-                <div className="col-3" />
               </div>
 
             </div>

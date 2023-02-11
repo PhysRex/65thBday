@@ -161,7 +161,7 @@ const copy = {
     rsvp: 'R.S.V.P.',
     inviteMsg: 'Todos mis días no serán suficientes para agradecer la bondad y gracia de Dios en mi vida. ',
     inviteMsg2: 'Sin duda, he recibido más regalos de los que hubiera imaginado, deseado o merecido.',
-    inviteMsg3: 'Tu amistad y cariño son uno de esos tesoros y tu presencia será un inolvidable recuerdo!',
+    inviteMsg3: 'Tu amistad y cariño son uno de esos regalos y tu presencia será un recuerdo inolvidable!',
   },
 };
 const text = copy.en;

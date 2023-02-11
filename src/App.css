@@ -30,6 +30,7 @@ body {
   .App {
     padding-top: 25vh;
     padding-bottom: 0;
+    margin-bottom: 100px;
   }
 
 }
